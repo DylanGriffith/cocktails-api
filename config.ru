@@ -1,0 +1,3 @@
+require "./cocktails"
+
+run Cocktails
