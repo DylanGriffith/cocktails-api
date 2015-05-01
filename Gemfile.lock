@@ -12,6 +12,8 @@ GEM
     rack (1.6.0)
     rack-protection (1.5.3)
       rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
     rake (10.4.2)
     rspec (3.2.0)
       rspec-core (~> 3.2.0)
@@ -40,6 +42,7 @@ PLATFORMS
 DEPENDENCIES
   pg
   pry
+  rack-test
   rake
   rspec
   sequel
